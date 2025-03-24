@@ -1,0 +1,4 @@
+slice_file_name,fsID,start,end,salience,fold,classID,class
+100032-0-0-0.wav,100032,0.0,29,1,1,0,bee_buzz
+# ........
+# It is suggested that the sound model be trained using one thousand voices
