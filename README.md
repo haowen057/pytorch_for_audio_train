@@ -14,5 +14,5 @@ Model Architecture ____ provides CNN, ResNet, Transformer and other baseline mod
 Deployment Support ____ Export ONNX/TFLite format, support mobile and embedded device deployment.
 
 Usage Restrictions
-- ✅ **Allowed**: Learning, personal projects, non-commercial forks.  
-- ❌ **Prohibited**: Commercial use, redistribution without permission.  
+-  **Allowed**: Learning, personal projects, non-commercial forks.  
+-  **Prohibited**: Commercial use, redistribution without permission.  
