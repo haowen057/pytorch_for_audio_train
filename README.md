@@ -1,18 +1,28 @@
-Project Overview
-This repository provides a complete sound recognition model training framework with:
+Linux常用指令完全指南
+这里为你整理一份Linux常用指令分类清单，包括基本操作、文件管理、系统监控等，适合从初学者到高级用户参考使用。
 
-Environmental sound classification (e.g., dog barks, bee buzz, children playing and so on)
+📁 一、文件和目录操作
+基础操作
+# 查看当前目录
+pwd                     # 显示当前工作目录
 
-Custom sound category training
+# 切换目录
+cd /path/to/dir         # 切换到指定目录
+cd ~                    # 切换到用户主目录
+cd -                    # 切换到上一个目录
+cd ..                   # 返回上级目录
 
-End-to-end PyTorch pipeline (preprocessing → training → inference)
+# 列出文件
+ls                      # 列出当前目录内容
+ls -l                   # 详细列表（权限、大小、时间）
+ls -a                   # 显示所有文件（包括隐藏文件）
+ls -lh                  # 人类可读的文件大小
+ls -t                   # 按时间排序
+ls -R                   # 递归列出子目录
 
-Core Features
-Data Preprocessing ____ Automatic processing of audio slicing, resampling, spectrum conversion (Mel/MFCC)
-Enhancement training ____ Supports 12 kinds of data enhancement such as adding noise, time-frequency mask, and speed modulation.
-Model Architecture ____ provides CNN, ResNet, Transformer and other baseline models.
-Deployment Support ____ Export ONNX/TFLite format, support mobile and embedded device deployment.
-
-Usage Restrictions
--  **Allowed**: Learning, personal projects, non-commercial forks.  
--  **Prohibited**: Commercial use, redistribution without permission.  
+# 创建和删除
+mkdir dirname           # 创建目录
+mkdir -p dir1/dir2      # 创建多级目录
+rmdir dirname           # 删除空目录
+rm -r dirname           # 递归删除目录及其内容
+rm -rf dirname          # 强制递归删除（危险！）
